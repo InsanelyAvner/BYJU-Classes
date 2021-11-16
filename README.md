@@ -1,6 +1,8 @@
 # Avner's Byju Classes
 
-Here are the links for my BYJU classes
+Hello there! Entering links in spreadsheets seem boring, so I decided to do this!
+
+Here are the links for all my awesome BYJU classes!
 
 Class #1:
 ```
