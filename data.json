@@ -1,6 +1,22 @@
 {
-  "1": "https://colab.research.google.com/drive/1R2sLZXtq7A_4bEIRtARjzwDXeWlU0hEr",
-  "2": "https://colab.research.google.com/drive/1P7QklXuBKy-sS3UdY_ri7-B0amYIqLy8",
-  "3": "https://colab.research.google.com/drive/1J_tUAcedhYxnjyu1eXpFaO-x8XDM-XWZ",
-  "4": "https://colab.research.google.com/drive/19RnOzyNP4sHpUZlXhyDULSOHG8_OySVx"
+  "1": {
+    "title": "Variables & Data-Types",
+    "description": "In this lesson, I built a very simple version of the Mind Reader algorithm in which a computer predicts Heads or Tails for every player input.<div style='margin:10px0px'></div>This was my first lesson and I have to say, it was amazing!",
+    "link": "https://colab.research.google.com/drive/1R2sLZXtq7A_4bEIRtARjzwDXeWlU0hEr"
+  },
+  "2": {
+    "title": "While Loop, Data-Type Conversion & Conditional Statements",
+    "description": "In this class, I added more functionalities to the algorithm written on the first lesson.<div style='margin:10px0px'></div>Working with while loops were very fun. 💻",
+    "link": "https://colab.research.google.com/drive/1P7QklXuBKy-sS3UdY_ri7-B0amYIqLy8"
+  },
+  "3": {
+    "title": "Improving The Algorithm",
+    "description": "In this class, I improved my Mind Reader algorithm so that it can make better predictions instead of making predictions randomly.<div style='margin:10px0px'></div>I encountered many errors on the way, but I managed to quickly find a solution 💡",
+    "link": "https://colab.research.google.com/drive/1J_tUAcedhYxnjyu1eXpFaO-x8XDM-XWZ"
+  },
+  "4": {
+    "title": "<span style='color: rgb(108, 93, 211)'>Capstone Class</span> - The <code class='language-plaintext highlighter-rouge'>gameplay()</code> Function",
+    "description": "In this lesson, learnt the following: <ul><li>The working of the <code class='language-plaintext highlighter-rouge'>gameplay()</code> function</li><li>Python list to unravel the mystery behind the <code class='language-plaintext highlighter-rouge'>valid_entries = ['0', '1']</code> statement.</li><li>The working of the <code class='language-plaintext highlighter-rouge'>while player_input not in valid_entries</code> statement.</li><li>The use of the <code class='language-plaintext highlighter-rouge'>break</code> keyword.</li></ul>",
+    "link": "https://colab.research.google.com/drive/19RnOzyNP4sHpUZlXhyDULSOHG8_OySVx"
+  }
 }
