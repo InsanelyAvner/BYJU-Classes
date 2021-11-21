@@ -1,23 +1,24 @@
-links = {}
-fetch("data.json")
-  .then(response => response.json())
-  .then(json => links = json);
+async function getJSON() {
+  return fetch('data.json')
+    .then((response) => response.json())
+    .then((responseJson) => {return responseJson});
+}
 
-function loadLinks(mylinks) {
-  console.log('check1')
+async function loadLinks() {
+  const classes = await this.getJSON()
+  console.log(classes)
   content = document.getElementById('links')
-  for (link in mylinks) {
+
+  for (className in classes) {
     content.innerHTML += `
-    <p>Class #${link}:</p>
+    <h3>Lesson ${className}: <span style="font-style: italic">${classes[className]["title"]}</span></h3>
+    <p>${classes[className]["description"]}</p>
     <div class="language-plaintext highlighter-rouge">
       <div class="highlight">
-        <pre class="highlight"><code>${mylinks[link]}</code></pre>
+        <pre class="highlight"><code><a href="${classes[className]["link"]}" target="_blank">${classes[className]["link"]}</a></code></pre>
       </div>
     </div>
     `
   }
 }
-
-setTimeout(() => {
-  loadLinks(links)
-}, 30);
+loadLinks()
